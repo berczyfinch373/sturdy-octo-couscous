@@ -1,0 +1,14 @@
+# 数据统计和分析示例
+data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+sum_of_elements = 0
+count_of_elements = 0
+
+for row in data:
+    for element in row:
+        sum_of_elements += element
+        count_of_elements += 1
+
+average = sum_of_elements / count_of_elements
+print(f"Sum: {sum_of_elements}")
+print(f"Count: {count_of_elements}")
+print(f"Average: {average}")
